@@ -1,0 +1,328 @@
+.banner__bg--img {
+  position: relative;
+  background-image: url("image/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.bg__overly {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(14, 13, 13);
+  opacity: 0.8;
+}
+
+.banner__search--content {
+  z-index: 99 !important;
+}
+
+.banenr__heading {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 20px 30px;
+  border-radius: 0px 30px 0px 30px;
+}
+.search__button {
+  width: 100% !important;
+}
+
+.banner__search--content {
+  background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255 255 255);
+  font-weight: 500;
+  margin-right: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 4px;
+  background: #6fb048;
+  bottom: -25px;
+  left: 52%;
+  transform: translateX(-50%);
+  transition: 0.25s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:before {
+  width: 89%;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.card {
+  transition: 0.4s all ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card__des {
+  color: red;
+}
+
+.card__package--name {
+  width: 60px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(73, 73, 221);
+}
+
+.card__package--nametwo {
+  width: 200px;
+  display: flex;
+}
+
+.umrah1,
+.umrah2 {
+  width: 60px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(73, 73, 221);
+}
+
+.viewAllButton {
+  background-color: rgb(73, 73, 221) !important;
+  border: none !important;
+}
+
+.holiday__bg--img,
+.hajj__bg--img {
+  width: 100%;
+  background-image: url("image/ha.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  background-attachment: fixed;
+  padding-bottom: 50px;
+}
+
+.holidayContent {
+  width: 100%;
+  margin: auto;
+}
+
+.flag {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+}
+
+.flag img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s all ease-in-out;
+  cursor: pointer;
+}
+
+.flag:hover img {
+  transform: scale(1.1);
+}
+
+.flag__name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: blueviolet;
+  opacity: 0.7;
+}
+
+.hajj__bg--img {
+  background-image: url("image/ha1.jpg");
+}
+
+.footer__bg {
+  background-color: black;
+  padding: 50px 0px;
+}
+
+.footer__bg ul {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__bg ul li {
+  list-style-type: none;
+  padding: 10px 0px;
+  font-weight: 600;
+  transition: 0.4s all ease-in-out;
+  cursor: pointer;
+}
+
+.footer__bg ul li:hover {
+  color: #6fb048;
+  transform: translateX(3px);
+}
+
+.FOOTER__ICON {
+  display: flex;
+}
+
+form {
+  width: 100% !important;
+}
+
+.finput {
+  margin: auto;
+  width: 90%;
+}
+
+.subscribeInputSection {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.inputBorder {
+  border: 1px solid #6fb048 !important;
+  box-shadow: none !important;
+}
+
+.sButton {
+  width: 150px !important;
+  margin-top: 32px;
+}
+
+.form_section {
+  background-color: #0c0b09;
+}
+
+.form_section h3 {
+  color: white;
+  font-size: 25px;
+}
+
+.form_section h1 {
+  color: #c4861c;
+  font-size: 45px;
+}
+
+.input_fild input {
+  padding: 16px;
+  background: transparent;
+}
+
+.input_fild input::placeholder {
+  font-size: 20px;
+  color: white;
+}
+
+.input_fild input:focus {
+  box-shadow: none;
+  border: 1px solid #dd900c;
+  background: transparent;
+}
+
+.input_fild textarea {
+  background: transparent;
+}
+
+.input_fild textarea::placeholder {
+  color: white;
+  font-size: 20px;
+}
+
+.input_fild textarea:focus {
+  box-shadow: none;
+  border: 1px solid #dd900c;
+  background: transparent;
+}
+
+form input[type="submit"] {
+  padding: 7px 30px;
+  background: transparent;
+  border: 1px solid #cf8b16;
+  border-radius: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: 0.4s all ease-in-out;
+  color: white;
+}
+
+form input[type="submit"]:hover {
+  background-color: blue;
+}
+
+.whyUS {
+  background-color: rgb(214, 230, 228);
+  padding: 50px 0px;
+}
+
+.textJustify {
+  text-align: justify;
+}
+
+.xx .active {
+  background-color: blue !important;
+  color: white !important;
+}
+
+.contactSection {
+  border-radius: 0px 50px;
+}
+
+.contact_card--icon {
+  width: 100px;
+  height: 100px;
+  border: 3px solid blue;
+  margin: auto;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_card--icon h1 {
+  font-size: 60px;
+}
+
+.borderDesign {
+  height: 330px;
+}
+
+
+.tourForm {
+  justify-content: space-between;
+}
+
+.react-datepicker__input-container {
+  width: 100% !important;
+}
+.react-datepicker-ignore-onclickoutside {
+  width: 190% !important;
+}
+.logo {
+  width: 80px;
+  margin-left: 100px;
+}

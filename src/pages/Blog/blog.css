@@ -1,0 +1,27 @@
+.blog__card--design{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__img--main{
+    width: 50%;
+}
+
+.blog__text{
+    width: 50%;
+}
+
+.blog__img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog__des{
+    text-align: justify;
+}
+
+.blog__redMore{
+    color: red;
+    cursor: pointer;
+}
